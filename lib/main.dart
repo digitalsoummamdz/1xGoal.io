@@ -469,8 +469,7 @@ class PitchPainter extends CustomPainter {
     canvas.drawCircle(
       Offset(size.width * 0.50, size.height * 0.72),
       size.width * 0.045,
-      const Paint()..color = const Color(0xFFFFD3B0),
-    );
+            Paint()..color = const Color(0xFFFFD3B0),
 
     canvas.drawRRect(
       RRect.fromRectAndRadius(
